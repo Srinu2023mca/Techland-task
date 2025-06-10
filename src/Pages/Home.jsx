@@ -4,7 +4,7 @@ import TestimonialsSection from "./TestimonialsSection";
 import FeaturesSection from "./FeaturesSection";
 import BenifetsSection from "./BenifetsSection";
 import PricingSection from "./PricingSection";
-import AboutUs from "./AboutUs";
+import Contact from "./Contact";
 const Home = () => {
   return (
     <>
@@ -13,7 +13,7 @@ const Home = () => {
       <FeaturesSection />
       <BenifetsSection />
       <PricingSection />
-      <AboutUs />
+      <Contact/>
     </>
   );
 };

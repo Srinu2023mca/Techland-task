@@ -5,7 +5,7 @@ import User1 from "../assets/user1.jpg";
 import User2 from "../assets/user2.jpg";
 import User3 from "../assets/user3.jpg";
 import User4 from "../assets/user4.jpg";
-const AboutUs = () => {
+const Contact= () => {
   const [currentTestimonial, setCurrentTestimonial] = useState(0);
   const [contactForm, setContactForm] = useState({
     email: "",
@@ -243,4 +243,4 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+export default Contact;
