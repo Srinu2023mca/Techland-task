@@ -1,31 +1,13 @@
-// import { useState } from "react";
-// import Navbar from "./components/Navbar";
-// import Footer from "./components/Footer";
-// import "./App.css";
-// import Home from "./components/Home";
-
-// function App() {
-//   return (
-//     <>
-//       <Navbar />
-//       <Home />
-//       <Footer />
-//     </>
-//   );
-// }
-
-// export default App;
-
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./Pages/Home";
 import Product from "./Pages/Navbar/Product";
-import FAQs from "./pages/Navbar/Faqs";
-import Blog from "./pages/Navbar/Blog";
+import FAQs from "./Pages/Navbar/Faqs";
+import Blog from "./Pages/Navbar/Blog";
 import AboutUs from "./Pages/Navbar/AboutUs";
-import Login from "./pages/Navbar/Login";
-import Signup from "./pages/Navbar/Signup";
+import Login from "./Pages/Navbar/Login";
+import Signup from "./Pages/Navbar/Signup";
 import Footer from "./components/Footer";
 const App = () => {
   return (
