@@ -38,7 +38,7 @@ const BenifetsSection = () => {
               </div>
             </div>
             <div className="flex justify-center items-center">
-              <div className="relative">
+              <div className="relative hidden lg:block">
                 <div className=" rounded-2xl ">
                   <img
                     src={Benefit}
